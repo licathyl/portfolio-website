@@ -27,7 +27,6 @@ body {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
 }
 
 h1 {
@@ -176,6 +175,14 @@ button:focus,
   text-decoration: none;
 }
 
+.standard-label {
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 @media (max-width: 575.98px) {
   .page-header {
     -webkit-box-orient: vertical;
@@ -203,6 +210,10 @@ button:focus,
   .navigation-list li:first-child {
     margin-left: 0;
   }
+}
+
+.aboutme {
+  text-align: center;
 }
 
 /* start grid fallback */
@@ -312,4 +323,24 @@ button:focus,
 .cloud-left {
   -webkit-animation: 20s cloud-move-reverse infinite alternate linear;
           animation: 20s cloud-move-reverse infinite alternate linear;
+}
+
+.contact-page {
+  text-align: center;
+}
+
+#contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
 }
