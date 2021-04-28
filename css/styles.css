@@ -242,3 +242,15 @@ button:focus,
 .cloud-left {
   animation: 20s cloud-move-reverse infinite alternate linear;
 }
+
+.contact-page {
+  text-align: center;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+}
