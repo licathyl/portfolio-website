@@ -115,7 +115,8 @@ button:focus,
 .page-header {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 20px 50px 20px;
+  border-bottom: solid #F7F7F7 2px;
 }
 
 .page-header__item {
