@@ -27,6 +27,7 @@ body {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.6;
+  text-align: center;
 }
 
 h1 {
@@ -202,10 +203,6 @@ button:focus,
   .navigation-list li:first-child {
     margin-left: 0;
   }
-}
-
-.aboutme {
-  text-align: center;
 }
 
 /* start grid fallback */
