@@ -10,61 +10,46 @@ Active Link Color (Link2): #489c79
 
 :root {
   /* Colors */
-  --primary-color: #B6D7C8;
-  --secondary-color: #e0b354;
-  --text-color: #E8F3F5;
-  --background-color: #365347;
-  --visited-link-color: #E7FFF4;
-  --active-link-color: #489c79;
-  --button-text-color: black;
-  --grid-color: #365347;
   /* Fonts */
-  --font-family: 'Bitter', sans-serif;
-  --regular-weight: 400px;
-  --thick-weight: 600px;
-  --h1-size: 34px;
-  --h2-size: 24px;
-  --body-size: 16px;
-  --paragraph-size: 18px;
 }
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--font-family);
-  font-weight: var(--regular-weight);
-  font-size: var(--body-size);
+  background-color: #365347;
+  color: #E8F3F5;
+  font-family: 'Bitter', sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
 h1 {
-  font-size: var(--h1-size);
-  font-weight: var(--thick-weight);
+  font-size: 34px;
+  font-weight: 600px;
 }
 
 h2 {
-  font-size: var(--h2-size);
-  font-weight: var(--thick-weight);
+  font-size: 24px;
+  font-weight: 600px;
 }
 
 p {
-  font-size: var(--paragraph-size);
-  font-weight: var(--regular-weight);
+  font-size: 18px;
+  font-weight: 400px;
 }
 
 a {
   /* primary color */
-  color: var(--primary-color);
+  color: #B6D7C8;
 }
 
 a:visited {
   /* visited link */
-  color: var(--visited-link-color);
+  color: #E7FFF4;
 }
 
 a:active {
   /* selected link */
-  color: var(--active-link-color);
+  color: #489c79;
 }
 
 a:hover, a:focus {
@@ -72,14 +57,41 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-button,
-  .button, button {
+button {
   border: none;
   display: inline-block;
-  font-family: var(--font-family);
+  font-family: 'Bitter', sans-serif;
   /* primary colour */
-  background-color: var(--primary-color);
-  color: var(--button-text-color);
+  background-color: #B6D7C8;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  transition: 0.2s opacity;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  font-family: 'Bitter', sans-serif;
+  /* primary colour */
+  background-color: #B6D7C8;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  transition: 0.2s opacity;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  font-family: 'Bitter', sans-serif;
+  /* primary colour */
+  background-color: #B6D7C8;
+  color: black;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -145,6 +157,7 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
 }
 
 @media (max-width: 575.98px) {
@@ -238,7 +251,7 @@ button:focus,
     margin: 0;
   }
   .grid__item {
-    background-color: var(--grid-color);
+    background-color: #365347;
     width: auto;
     min-height: auto;
     margin: 0;
@@ -268,7 +281,7 @@ button:focus,
     grid-row: auto / auto;
   }
   h1 {
-    font-size: var(--h1-size);
+    font-size: 34px;
   }
 }
 
@@ -294,8 +307,8 @@ button:focus,
 
 #contact-button {
   border: none;
-  background-color: var(--primary-color);
-  color: var(--button-text-color);
+  background-color: #B6D7C8;
+  color: black;
   text-decoration: none;
   margin: 0 auto;
   padding: 15px;
