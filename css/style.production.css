@@ -343,7 +343,7 @@ button:focus,
 }
 
 /* header viewport */
-@media (max-width: 568px) {
+@media (max-width: 565px) {
   .page-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
