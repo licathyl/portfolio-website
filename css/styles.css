@@ -145,6 +145,7 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
 }
 
 @media (max-width: 575.98px) {
