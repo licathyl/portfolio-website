@@ -222,12 +222,6 @@ button:focus,
   border: solid #F7F7F7 1px;
 }
 
-/* start grid fallback */
-.grid__item {
-  display: inline-block;
-  width: 33%;
-}
-
 @supports (display: grid) {
   .grid {
     display: grid;
@@ -266,7 +260,7 @@ button:focus,
     grid-row: auto / auto;
   }
   h1 {
-    font-size: 22px;
+    font-size: var(--h1-size);
   }
 }
 
