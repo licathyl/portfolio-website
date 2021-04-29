@@ -262,11 +262,24 @@ button:focus,
 .contact-page {
   text-align: center;
 }
+
 #contact-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
   max-width: 400px;
-  padding: 20px;
+}
+
+#contact-button {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 15px;
+  width: 150px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  transition: 0.9s opacity;
 }
