@@ -17,12 +17,13 @@ Active Link Color (Link2): #489c79
   --visited-link-color: #E7FFF4;
   --active-link-color: #489c79;
   --button-text-color: black;
-  --grid-color: darkgray;
+  --grid-color: #365347;
   /* Fonts */
   --font-family: 'Bitter', sans-serif;
   --regular-weight: 400px;
   --thick-weight: 600px;
-  --h1-size: 30px;
+  --h1-size: 34px;
+  --h2-size: 24px;
   --body-size: 16px;
   --paragraph-size: 18px;
 }
