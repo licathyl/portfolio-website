@@ -208,6 +208,13 @@ button:focus,
 }
 
 /* work page */
+.grid__item {
+  display: inline-block;
+  width: 33%;
+  margin: 0;
+  padding: 20px;
+  border: solid #F7F7F7 1px;
+}
 
 /* start grid fallback */
 .grid__item {
@@ -255,6 +262,12 @@ button:focus,
   h1 {
     font-size: 22px;
   }
+}
+
+.work-page {
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 /* contact page */
