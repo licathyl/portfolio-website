@@ -89,28 +89,11 @@ button:focus,
   opacity: 0.8;
 }
 
-.profile__portrait {
-  float: left;
-  width: 250px;
-  margin-right: 40px;
-  border-radius: 50%;
-}
-
-.profile {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.page-footer {
-  clear: both;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
 }
+
+/* for all pages */
 
 .home-page, .about-page, .work-page, .contact-page {
    margin: 0 auto;
@@ -151,6 +134,13 @@ button:focus,
   flex-direction: column;
 }
 
+.page-footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 @media (max-width: 575.98px) {
   .page-header {
     flex-direction: column;
@@ -171,9 +161,53 @@ button:focus,
   }
 }
 
+/* home page */
+
+.profile__portrait {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* about page */
+
 .aboutme {
   text-align: center;
 }
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0px, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+
+.cloud-right {
+  animation: 16s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+
+.cloud-left {
+  animation: 20s cloud-move-reverse infinite alternate linear;
+}
+
+/* work page */
 
 /* start grid fallback */
 .grid__item {
@@ -223,31 +257,7 @@ button:focus,
   }
 }
 
-@keyframes cloud-move {
-  from {
-    transform: translate(0px, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-right {
-  animation: 16s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-left {
-  animation: 20s cloud-move-reverse infinite alternate linear;
-}
+/* contact page */
 
 .contact-page {
   text-align: center;
