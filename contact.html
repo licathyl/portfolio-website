@@ -36,15 +36,15 @@
       <h1>Contact</h1>
       <form action="" method="post" id="contact-form">
         <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required>
+        <input type="email" placeholder="forexample@mail.com" id="contact-email" required>
         <br>
-        <label class="standard-label">Telephone: </label>
-        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+        <label class="standard-label" for="contact-phone">Telephone: </label>
+        <input type="tel" placeholder="123-456-7890" id="contact-phone"  pattern="\d{3}[\-]\d{3}[\-]\d{4}">
         <br>
-        <label class="standard-label">Message: </label>
-        <textarea maxlength="240" required></textarea>
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea placeholder="Max length: 240 characters" id="contact-message" maxlength="240" required></textarea>
         <br>
-        <input type="submit" value="Send message">
+        <input type="submit" value="Send message" id="contact-button">
       </form>
       <br>
       <div>
