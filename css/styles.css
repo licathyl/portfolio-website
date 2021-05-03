@@ -186,7 +186,7 @@ button:focus,
 }
 
 .cloud-right {
-  animation: 16s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 }
 
 @keyframes cloud-move-reverse {
@@ -199,7 +199,7 @@ button:focus,
 }
 
 .cloud-left {
-  animation: 20s cloud-move-reverse infinite alternate linear;
+  animation: 35s cloud-move-reverse infinite alternate linear;
 }
 
 /* work page */
