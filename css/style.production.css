@@ -236,8 +236,8 @@ button:focus,
 }
 
 .cloud-right {
-  -webkit-animation: 3000s cloud-move infinite alternate linear;
-          animation: 3000s cloud-move infinite alternate linear;
+  -webkit-animation: 3s cloud-move infinite alternate linear;
+          animation: 3s cloud-move infinite alternate linear;
 }
 
 @-webkit-keyframes cloud-move-reverse {
@@ -263,8 +263,8 @@ button:focus,
 }
 
 .cloud-left {
-  -webkit-animation: 3500s cloud-move-reverse infinite alternate linear;
-          animation: 3500s cloud-move-reverse infinite alternate linear;
+  -webkit-animation: 4s cloud-move-reverse infinite alternate linear;
+          animation: 4s cloud-move-reverse infinite alternate linear;
 }
 
 /* work page */
