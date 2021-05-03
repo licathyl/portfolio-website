@@ -271,6 +271,8 @@ button:focus,
     align-items: center;
   }
   .page-header__item {
+    width: 20em;
+    margin-left: -20px;
     flex: none;
   }
   .page-header__item:last-child {
