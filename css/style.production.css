@@ -354,10 +354,12 @@ button:focus,
             align-items: center;
   }
   .page-header__item {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-  }
+      width: 20em;
+      margin-left: -20px;
+      -webkit-box-flex: 0;
+          -ms-flex: none;
+              flex: none;
+    }
   .page-header__item:last-child {
     -webkit-box-flex: unset;
         -ms-flex-positive: unset;
